@@ -1,0 +1,56 @@
+# Artificial Neural Network (ANN) Assignment
+
+## Overview
+This assignment demonstrates the implementation of Artificial Neural Networks (ANN) using two datasets: the Iris dataset and the MNIST dataset. The goal is to build and evaluate ANN models for both structured and image data.
+
+## Datasets
+1. **Iris Dataset**: A classic dataset used for classification tasks, containing features of iris flowers and their species.
+2. **MNIST Dataset**: A large database of handwritten digits commonly used for training various image processing systems.
+
+## Requirements
+- Python 3.x
+- Jupyter Notebook
+- Libraries:
+  - `numpy`
+  - `pandas`
+  - `matplotlib`
+  - `seaborn`
+  - `scikit-learn`
+  - `tensorflow`
+  - `keras`
+
+## Setup Instructions
+1. **Clone or Download the Repository:**
+   - Clone this repository or download the ZIP file and extract it to your local machine.
+
+2. **Install Required Libraries:**
+   - You can install the required libraries using pip:
+     ```bash
+     pip install numpy pandas matplotlib seaborn scikit-learn tensorflow keras
+     ```
+
+3. **Download the Datasets:**
+   - Ensure you have the `iris.csv` file in your working directory. The MNIST dataset will be automatically loaded using TensorFlow Datasets.
+
+## Usage
+1. **Open the Jupyter Notebook:**
+   - Navigate to the directory containing this project and open the Jupyter Notebook:
+     ```bash
+     jupyter notebook
+     ```
+
+2. **Run the Notebook:**
+   - Open the notebook file (e.g., `ANN_Assignment.ipynb`) and execute each cell sequentially to build and evaluate the ANN models.
+
+3. **Visualizations:**
+   - The notebook includes visualizations for model accuracy and samples from the MNIST dataset.
+
+## Model Training and Evaluation
+- The Iris dataset model is trained using an ANN with two hidden layers and evaluated for accuracy.
+- The MNIST model is trained on a modified dataset of handwritten digits, with results displayed after training.
+
+## Conclusion
+This assignment illustrates the capabilities of ANN in handling both structured and image data. It provides insights into model training, evaluation, and the importance of data preprocessing.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
